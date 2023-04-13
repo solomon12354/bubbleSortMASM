@@ -107,9 +107,9 @@ C1:
     mov eax, 0      ;
     mov esi, ecx    ;
     mov ax, [esi*2 + vector2];
-    call	DumpRegs
+    call	WriteDec
     ; more code here
-
+    call crlf   ;
     loop C1;
 
 mov ax, [vector2];
