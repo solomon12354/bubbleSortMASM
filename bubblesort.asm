@@ -1,10 +1,8 @@
 TITLE Addand Subtract(AddSub.asm)
 
 ; This program addsand subtracts 32 - bit integers.
-; Last update : 06 / 01 / 2006
 
 INCLUDE Irvine32.inc
-
 
 .386
 .model flat,stdcall
